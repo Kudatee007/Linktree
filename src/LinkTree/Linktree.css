@@ -2,21 +2,23 @@
   margin: 0;
   padding: 0;
 }
-.turner{
-    display: none;
+.turner {
+  display: none;
 }
 .links {
-  display: block;
   width: 100%;
 }
 .links > a {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
   border: none;
   background-color: #eaecf0;
   border-radius: 8px;
   width: 92%;
   margin: 0 auto;
-  padding: 24px 10px;
   text-align: center;
   margin-bottom: 24px;
   text-decoration: none;
@@ -49,4 +51,9 @@
   color: #101828;
   padding-top: 24px;
   padding-bottom: 32px;
+}
+@media (min-width: 760px) {
+  .links > a {
+    width: 80%;
+  }
 }
