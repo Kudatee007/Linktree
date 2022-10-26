@@ -31,17 +31,21 @@
   box-sizing: border-box;
   height: 68px;
 }
+.links > a:hover {
+  background-color: #d0d5dd;
+}
 .LinkTree {
   position: relative;
   padding-top: 44px;
+  background-color: #ffffff;
 }
 .share {
   position: absolute;
   right: 16px;
   top: 44px;
 }
-.share2{
-    display: none;
+.share2 {
+  display: none;
 }
 .profile {
   padding-top: 20px;
@@ -56,27 +60,27 @@
   padding-top: 24px;
   padding-bottom: 32px;
 }
-.desktop-View{
-    display: none;
+.desktop-View {
+  display: none;
 }
 @media (min-width: 760px) {
   .links > a {
     width: 80%;
     height: 76px;
   }
-  .share{
+  .share {
     display: none;
   }
-  .share2{
+  .share2 {
     display: block;
     position: absolute;
     right: 24.5%;
     top: 44px;
   }
-  .desktop-View{
+  .desktop-View {
     display: block;
   }
-  .icons{
+  .icons {
     display: flex;
     justify-content: space-between;
     width: 70px;
@@ -86,12 +90,12 @@
     padding-top: 24px;
     padding-bottom: 130px;
   }
-  .line{
+  .line {
     width: 84%;
     margin: 0 auto;
     opacity: 0.3;
   }
-  .footer{
+  .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,13 +105,18 @@
     padding-top: 36px;
     padding-bottom: 52px;
   }
-  .intern{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-color: #667085;
+  .intern {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #667085;
+  }
+  .links > a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
   }
 }
