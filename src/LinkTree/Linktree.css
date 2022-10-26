@@ -29,6 +29,7 @@
   line-height: 20px;
   color: #101828;
   box-sizing: border-box;
+  height: 68px;
 }
 .LinkTree {
   position: relative;
@@ -38,6 +39,9 @@
   position: absolute;
   right: 16px;
   top: 44px;
+}
+.share2{
+    display: none;
 }
 .profile {
   padding-top: 20px;
@@ -52,8 +56,53 @@
   padding-top: 24px;
   padding-bottom: 32px;
 }
+.desktop-View{
+    display: none;
+}
 @media (min-width: 760px) {
   .links > a {
     width: 80%;
+    height: 76px;
+  }
+  .share{
+    display: none;
+  }
+  .share2{
+    display: block;
+    position: absolute;
+    right: 24.5%;
+    top: 44px;
+  }
+  .desktop-View{
+    display: block;
+  }
+  .icons{
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 50px;
+  }
+  .line{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .intern{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #667085;
   }
 }
