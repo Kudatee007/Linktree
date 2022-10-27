@@ -70,6 +70,9 @@
   .links > a {
     width: 80%;
     height: 76px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
   }
   .share {
     display: none;
@@ -102,7 +105,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 80%; */
     padding: 0 112px;
     margin: 0 auto;
     padding-top: 36px;
@@ -117,9 +119,8 @@
     text-align: center;
     color: #667085;
   }
-  .links > a {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
+  .profName {
+    font-size: 20px;
+    line-height: 30px;
   }
 }
