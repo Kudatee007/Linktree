@@ -5,8 +5,8 @@ import share2 from "./img/share2.svg";
 import "./Linktree.css";
 import slack from "./img/slack.svg";
 import git from "./img/github.svg";
-import zuri from "./img/zuri.svg";
-import ingress from "./img/ingress.svg";
+import zuridesk from "./img/Footer/Zuri.Internship_Logo.svg";
+import ingressdesk from "./img/Footer/I4G.svg";
 
 const Linktree = () => {
   return (
@@ -55,9 +55,9 @@ const Linktree = () => {
         </div>
         <hr className="line" />
         <footer className="footer">
-            <img src={zuri} alt="" />
+            <img src={zuridesk} alt="" className="zurii"/>
             <h2 className="intern">HNG Internship 9 Frontend Task</h2>
-            <img src={ingress} alt="" />
+            <img src={ingressdesk} alt="" className="ingress"/>
         </footer>
       </div>
     </div>
