@@ -18,33 +18,33 @@ const Linktree = () => {
 
       {/* profile picture */}
 
-      <img src={proPics} alt="" id="profile_img" className="profile" />
+      <img src={proPics} alt="" id="profile__img" className="profile" />
 
       {/* share Btn  */}
       <img src={shareBtn} alt="" className="share" />
       <img src={share2} alt="" className="share2" />
 
-      <h1 className="profName">Kudatee01</h1>
+      <h1 className="profName" id="twitter">Kudatee01</h1>
 
       {/* links */}
 
       <div className="links">
-        <a href="https://twitter.com/kudatee001" id="twitter">
+        <a href="https://twitter.com/kudatee001">
           Twitter Link
         </a>
-        <a href="https://training.zuri.team/" id="btn_zuri">
+        <a href="https://training.zuri.team/" id="btn__zuri">
           Zuri Team
         </a>
         <a href="http://books.zuri.team" id="books">
           Zuri Books
         </a>
-        <a href="https://books.zuri.team/python-for-beginners?ref_id=<timilehinkudaisi01>" id="book_python">
+        <a href="https://books.zuri.team/python-for-beginners?ref_id=<timilehinkudaisi01>" id="book__python">
           Python Books
         </a>
         <a href="https://background.zuri.team" id="pitch">
           Background Check for Coders
         </a>
-        <a href="https://books.zuri.team/design-rules" id="book_design">
+        <a href="https://books.zuri.team/design-rules" id="book__design">
           Design Books
         </a>
       </div>

@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1e13105.css",
-    "main.js": "/static/js/main.2bd07656.js",
+    "main.css": "/static/css/main.c88df052.css",
+    "main.js": "/static/js/main.54dcad64.js",
     "static/js/787.93c19266.chunk.js": "/static/js/787.93c19266.chunk.js",
-    "static/media/ingress.svg": "/static/media/ingress.601ff0479d970c740e8b7d7ba7821548.svg",
-    "static/media/Device=Web, State=Default.svg": "/static/media/Device=Web, State=Default.0bf2cf9f59f9d289d55b9e6352476d64.svg",
-    "static/media/zuri.svg": "/static/media/zuri.0f8c3aa843c87d1f28aa0826858bd0ef.svg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Ellipse 3.svg": "/static/media/Ellipse 3.36978627d8aba5f0fed5f48008903081.svg",
+    "static/media/I4G.svg": "/static/media/I4G.361fe9004147fd213153c43561e8c340.svg",
+    "static/media/Zuri.Internship_Logo.svg": "/static/media/Zuri.Internship_Logo.428cf03f5de8c94bd46fff3da1fb5668.svg",
     "static/media/slack.svg": "/static/media/slack.6fa75d08a444264c64393c623e71c055.svg",
     "static/media/github.svg": "/static/media/github.6a40f212828370260b880b93f8d36b56.svg",
     "static/media/shareBtn.svg": "/static/media/shareBtn.219d65fad44a57f4737f6ae835840ef1.svg",
     "static/media/share2.svg": "/static/media/share2.8b4369de8ab30a8ae240d027dafeccf0.svg",
     "index.html": "/index.html",
-    "main.b1e13105.css.map": "/static/css/main.b1e13105.css.map",
-    "main.2bd07656.js.map": "/static/js/main.2bd07656.js.map",
+    "main.c88df052.css.map": "/static/css/main.c88df052.css.map",
+    "main.54dcad64.js.map": "/static/js/main.54dcad64.js.map",
     "787.93c19266.chunk.js.map": "/static/js/787.93c19266.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1e13105.css",
-    "static/js/main.2bd07656.js"
+    "static/css/main.c88df052.css",
+    "static/js/main.54dcad64.js"
   ]
 }
