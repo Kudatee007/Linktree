@@ -49,6 +49,9 @@
 }
 .profile {
   padding-top: 20px;
+  width: 98px;
+  height: 88px;
+  border-radius: 275px;
 }
 .profName {
   font-family: "Inter";

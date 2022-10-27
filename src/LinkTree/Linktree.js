@@ -1,6 +1,6 @@
 import React from "react";
 import shareBtn from "./img/shareBtn.svg";
-import proPics from "./img/Device=Web, State=Default.svg";
+import proPics from "./img/Ellipse 3.svg";
 import share2 from "./img/share2.svg";
 import "./Linktree.css";
 import slack from "./img/slack.svg";
@@ -13,7 +13,7 @@ const Linktree = () => {
     <div className="LinkTree">
       {/* slack username */}
       <h1 id="slack" className="turner">
-        turner
+        timilehinkudaisi01
       </h1>
 
       {/* profile picture */}
@@ -24,7 +24,7 @@ const Linktree = () => {
       <img src={shareBtn} alt="" className="share" />
       <img src={share2} alt="" className="share2" />
 
-      <h1 className="profName">Annette Black</h1>
+      <h1 className="profName">Kudaisi Timilehin</h1>
 
       {/* links */}
 
