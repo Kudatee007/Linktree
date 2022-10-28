@@ -12,24 +12,25 @@ const Linktree = () => {
   return (
     <div className="LinkTree">
       {/* slack username */}
-      <h1 id="slack" className="turner">
+
+      <h1 id="slack">
         timilehinkudaisi01
       </h1>
 
       {/* profile picture */}
 
-      <img src={proPics} alt="" id="profile__img" className="profile" />
+      <img src={proPics} alt="" id="profile__img"  />
 
       {/* share Btn  */}
-      <img src={shareBtn} alt="" className="share" />
-      <img src={share2} alt="" className="share2" />
+      <img src={shareBtn} alt="" id="share" />
+      <img src={share2} alt="" id="share2" />
 
-      <h1 className="profName" id="twitter">Kudatee01</h1>
+      <h1 id="twitter">Kudatee01</h1>
 
       {/* links */}
 
       <div className="links">
-        <a href="https://twitter.com/kudatee001">
+        <a href="https://twitter.com/kudatee001" id="twitter__link">
           Twitter Link
         </a>
         <a href="https://training.zuri.team/" id="btn__zuri">
@@ -50,8 +51,8 @@ const Linktree = () => {
       </div>
       <div className="desktop-View">
         <div className="icons">
-          <img src={slack} alt="" />
-          <img src={git} alt="" />
+          <a href="timilehinkudaisi01"><img src={slack} alt="slack" /></a>
+          <a href="https://github.com/Kuldatee"><img src={git} alt="github" /></a>
         </div>
         <hr className="line" />
         <footer className="footer">

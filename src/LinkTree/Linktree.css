@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-.turner {
+#slack {
   display: none;
 }
 .links {
@@ -39,21 +39,21 @@
   padding-top: 44px;
   background-color: #ffffff;
 }
-.share {
+#share {
   position: absolute;
   right: 16px;
   top: 44px;
   cursor: pointer;
 }
-.share2 {
+#share2 {
   display: none;
 }
-.profile {
+#profile__img {
   padding-top: 20px;
   border-radius: 275px;
   cursor: pointer;
 }
-.profName {
+#twitter {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -106,10 +106,10 @@
     font-size: 18px;
     line-height: 28px;
   }
-  .share {
+  #share {
     display: none;
   }
-  .share2 {
+  #share2 {
     display: block;
     position: absolute;
     right: 24.5%;
@@ -152,7 +152,7 @@
     text-align: center;
     color: #667085;
   }
-  .profName {
+#twitter {
     font-size: 20px;
     line-height: 30px;
   }
