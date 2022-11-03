@@ -7,6 +7,7 @@ import slack from "./img/slack.svg";
 import git from "./img/github.svg";
 import zuridesk from "./img/Footer/Zuri.Internship_Logo.svg";
 import ingressdesk from "./img/Footer/I4G.svg";
+import { Link } from 'react-router-dom'
 
 const Linktree = () => {
   return (
@@ -48,6 +49,9 @@ const Linktree = () => {
         <a href="https://books.zuri.team/design-rules" id="book__design">
           Design Books
         </a>
+        <Link> <a href="" id="contact">
+          Contact Me
+        </a></Link>
       </div>
       <div className="desktop-View">
         <div className="icons">
