@@ -53,6 +53,10 @@
   display: grid;
   grid-template-columns: 1fr;
 }
+.llabel2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 #first_name {
   height: 44px;
   background: #ffffff;
@@ -74,6 +78,7 @@
   margin-bottom: 22px;
   font-size: 16px;
   color: #667085;
+
 }
 #email {
   height: 44px;
@@ -150,3 +155,62 @@ label {
   color: #ffffff;
   margin-bottom: 85px;
 }
+@media (min-width: 768px) {
+  .Contact_Contacts {
+    padding: 0 15%;
+  }
+  .llabel{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .llabel1{
+    width: 100%;
+  }
+ .check > p {
+    width: 100%;
+ }
+ .footerr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4%;
+    margin: 0 auto;
+    padding-top: 36px;
+    padding-bottom: 52px;
+  
+
+  }
+  .internn {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #667085;
+  }
+  .zuriii{
+    padding: 0;
+    width: 185.03px;
+  }
+  .ingresss{
+    padding: 0;
+    width: 132.13px;
+  }
+  .linee{
+    width: 92%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1024px) {
+    .Contact_Contacts {
+      padding: 0 20%;
+    }
+}
+@media (min-width: 1200px) {
+    .Contact_Contacts {
+      padding: 0 25%;
+    }
+}
+

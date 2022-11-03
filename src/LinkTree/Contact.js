@@ -7,6 +7,7 @@ import ingressdesk from "./img/Footer/I4G.svg";
 const Contact = () => {
   return (
     <div className="Contact_Contact">
+      <div className="Contact_Contacts">
       <h1 className="contactMe">Contact Me</h1>
       <p className="contactPa">
         Hi there, contact me to ask me about anything you have in mind.
@@ -28,11 +29,12 @@ const Contact = () => {
             id="last_name"
           />
         </div>
-        <div className="llabel1">
+        </div>
+        <div className="llabel2">
           <label htmlFor="email">Email</label>
           <input type="text" placeholder="yourname@email.com" id="email" />
         </div>
-        <div>
+        <div className="llabel3">
           <h2 className="mess">Message</h2>
           <textarea
             name=""
