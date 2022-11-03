@@ -49,7 +49,7 @@ const Linktree = () => {
         <a href="https://books.zuri.team/design-rules" id="book__design">
           Design Books
         </a>
-        <Link> <a href="" id="contact">
+        <Link to="/contact"> <a href="" id="contact">
           Contact Me
         </a></Link>
       </div>
