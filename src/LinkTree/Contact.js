@@ -10,17 +10,17 @@ const Contact = () => {
   const [first, setFirst] = useState("");
   const [last, setLast] = useState("");
   const [error, setError] = useState(false);
+  const inputRef1 = useRef()
+  const inputRef2 = useRef()
   const inputRef3 = useRef()
   const inputRef4 = useRef()
 
   function handleSubmit(e) {
     e.preventDefault();
-    if(emaiil == "" || message == "" || first.length == "" || last == "") {
+    if(message == ""|| emaiil == "" || first == "" || last == "") {
         setError(true)
-        inputRef3.current.style.border = "1px solid red"
-    }else{
-      inputRef3.current.style.border = "1px solid black"
     }
+   
   }
   return (
     <div className="Contact_Contact">
@@ -36,8 +36,9 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Enter your first name"
-                id="first_name"
+                id={error && first == "" ? "first_name" : "first_name-NX"}
                 onChange={e=> setFirst(e.target.value)}
+                ref={inputRef1}
               />
             </div>
             <div className="llabel1">
@@ -45,8 +46,9 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Enter your last name"
-                id="last_name"
+                id={error && last == "" ? "last_name" : "last_name-NX"}
                 onChange={e=> setLast(e.target.value)}
+                ref={inputRef2}
               />
             </div>
           </div>
@@ -64,11 +66,12 @@ const Contact = () => {
               rows="10"
               onChange={e=>setMessage(e.target.value)}
               placeholder="Send me a message and I'll reply you as soon as possible..."
+              ref={inputRef4}
             ></textarea>
             {error && message == "" ? <label className="lab">please enter a message</label> : ""}
           </div>
           <div className="check">
-            <input type="checkbox" className="checkbox" ref={inputRef4}/>
+            <input type="checkbox" className="checkbox"/>
             <p>
               You agree to providing your data to {name} who may contact you.
             </p>
