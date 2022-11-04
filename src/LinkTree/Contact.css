@@ -154,6 +154,10 @@ label {
   line-height: 24px;
   color: #ffffff;
   margin-bottom: 85px;
+  transition: 0.2s;
+}
+#btn__submit:hover{
+    background: #0059d6;
 }
 @media (min-width: 768px) {
   .Contact_Contacts {

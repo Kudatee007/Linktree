@@ -5,6 +5,7 @@ import zuridesk from "./img/Footer/Zuri.Internship_Logo.svg";
 import ingressdesk from "./img/Footer/I4G.svg";
 
 const Contact = () => {
+  const name = 'Timilehin'
   return (
     <div className="Contact_Contact">
       <div className="Contact_Contacts">
@@ -45,8 +46,8 @@ const Contact = () => {
           ></textarea>
         </div>
         <div className="check">
-          <input type="checkbox" />
-          <p>You agree to providing your data to [name] who may contact you.</p>
+          <input type="checkbox" className="checkbox"/>
+          <p>You agree to providing your data to {name} who may contact you.</p>
         </div>
         <button id="btn__submit">Send message</button>
       </div>
