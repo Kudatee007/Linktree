@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import zuridesk from "./img/Footer/Zuri.Internship_Logo.svg";
 import ingressdesk from "./img/Footer/I4G.svg";
@@ -10,17 +10,12 @@ const Contact = () => {
   const [first, setFirst] = useState("");
   const [last, setLast] = useState("");
   const [error, setError] = useState(false);
-  const inputRef1 = useRef()
-  const inputRef2 = useRef()
-  const inputRef3 = useRef()
-  const inputRef4 = useRef()
 
   function handleSubmit(e) {
     e.preventDefault();
-    if(message == ""|| emaiil == "" || first == "" || last == "") {
-        setError(true)
+    if (message == "" || emaiil == "" || first == "" || last == "") {
+      setError(true);
     }
-   
   }
   return (
     <div className="Contact_Contact">
@@ -36,9 +31,11 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Enter your first name"
-                id={error && first == "" ? "first_name" : "first_name-NX"}
-                onChange={e=> setFirst(e.target.value)}
-                ref={inputRef1}
+                className={
+                  error && first == "" ? "first_namee" : "first_namee-NX"
+                }
+                onChange={(e) => setFirst(e.target.value)}
+                id="first_name"
               />
             </div>
             <div className="llabel1">
@@ -46,35 +43,47 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Enter your last name"
-                id={error && last == "" ? "last_name" : "last_name-NX"}
-                onChange={e=> setLast(e.target.value)}
-                ref={inputRef2}
+                className={error && last == "" ? "last_namee" : "last_namee-NX"}
+                onChange={(e) => setLast(e.target.value)}
+                id="last_name"
               />
             </div>
           </div>
           <div className="llabel2">
             <label htmlFor="email">Email</label>
-            <input type="text" placeholder="yourname@email.com" id="email" onChange={e=>setEmaiil(e.target.value)} ref={inputRef3}/>
-            {error && emaiil == "" ? <label className="lab">please enter your email address</label> : ""}
+            <input
+              type="text"
+              placeholder="yourname@email.com"
+              id="email"
+              onChange={(e) => setEmaiil(e.target.value)}
+            />
+            {error && emaiil == "" ? (
+              <label className="lab">please enter your email address</label>
+            ) : (
+              ""
+            )}
           </div>
           <div className="llabel3">
-            <h2 className="mess">Message</h2>
+            <label htmlFor="message" className="mess">Message</label>
             <textarea
               name=""
               id="message"
               cols="40"
               rows="10"
-              onChange={e=>setMessage(e.target.value)}
+              onChange={(e) => setMessage(e.target.value)}
               placeholder="Send me a message and I'll reply you as soon as possible..."
-              ref={inputRef4}
             ></textarea>
-            {error && message == "" ? <label className="lab">please enter a message</label> : ""}
+            {error && message == "" ? (
+              <label className="lab">please enter a message</label>
+            ) : (
+              ""
+            )}
           </div>
           <div className="check">
-            <input type="checkbox" className="checkbox"/>
-            <p>
+            <input type="checkbox" id="checkbox" required />
+            <label htmlFor="checkbox">
               You agree to providing your data to {name} who may contact you.
-            </p>
+            </label>
           </div>
           <button id="btn__submit">Send message</button>
         </form>
