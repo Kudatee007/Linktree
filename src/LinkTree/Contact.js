@@ -80,7 +80,7 @@ const Contact = () => {
             )}
           </div>
           <div className="check">
-            <input type="checkbox" id="checkbox" required />
+            <input type="checkbox" id="checkbox"/>
             <label htmlFor="checkbox">
               You agree to providing your data to {name} who may contact you.
             </label>

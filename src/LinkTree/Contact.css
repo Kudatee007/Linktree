@@ -25,9 +25,6 @@
   padding-top: 12px;
   padding-bottom: 16px;
 }
-/* .ingresss {
-    padding-bottom: 32px;
-  } */
 .contactMe {
   font-family: "Inter";
   font-style: normal;
@@ -56,6 +53,9 @@
 .llabel2 {
   display: grid;
   grid-template-columns: 1fr;
+}
+.llabel3{
+    margin-top: 22px;
 }
 .first_namee {
   height: 44px;
@@ -110,7 +110,6 @@
   padding: 0 14px;
   font-size: 16px;
   color: #667085;
-  margin-bottom: 22px;
 }
 label {
   font-family: "Inter";
